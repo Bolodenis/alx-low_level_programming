@@ -1,1 +1,1 @@
-Write a C program that prints exactly and that piece of art is useful"
+Write a script that runs a C file through the preprocessor and save the result into another file
