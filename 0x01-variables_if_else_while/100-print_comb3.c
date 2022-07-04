@@ -3,19 +3,21 @@
 *main - Prints a hexadecimal string
 *Return: Always (Success)
 */
-int main(void)
 {
-int digit1, digit2;
-for (digit1 = 0; digit1 < 9; digit1++)
+int c;
+int i;
+for (c = '10'; c <= '19'; c++)
+for (i = '10'; i <= '19'; i++)
 {
-for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+if ((i % 10) > (c % 10))
+	putchar(c);
 {
-	putchar((digit1 % 10) + '0');
-	putchar((digit2 % 10) + '0');
-if (digit1 == 8 && digit2 == 9)
+	putchar(c % 10) + '0');
+	putchar(i % 10) + '0');
+if (c != 18 || j != 19)
+{
 	putchar(',');
-	putchar(' ');
-}
+	putchar(',');
 }
 	putchar('\n');
 return (0);
