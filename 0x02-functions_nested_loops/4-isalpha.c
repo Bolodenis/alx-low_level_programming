@@ -17,3 +17,6 @@ else
 }
 _putchar('\n');
 }
+{
+Return (0)
+}
