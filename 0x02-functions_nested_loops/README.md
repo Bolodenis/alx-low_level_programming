@@ -1,1 +1,1 @@
-Write a function that prints the alphabet
+Write a function that checks for lowercase character
