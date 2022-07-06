@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_alphabet - prints the alphabet in loewercase, followed by a new line.
+*print_alphabet - prints the alphabet in loewercase,
 */
 void print_alphabet(void)
 {
