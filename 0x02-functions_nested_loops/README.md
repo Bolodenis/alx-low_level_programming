@@ -1,1 +1,1 @@
-Write a function that prints every minute of the day of Jack Bauer
+Write a function that prints the 9 times table
