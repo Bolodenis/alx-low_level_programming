@@ -1,15 +1,14 @@
 #include "main.h"
 /**
-*print_most_numberss - prints
-*Return: void
+*print_most_numbers -> this prints most numbers
 */
 void print_most_numbers(void)
 {
-char c;
-for (c = '0'; c <= '9'; c++)
+int x;
+for (x = 0; x < 10; x++)
 {
-if (!(c == '2' || c == '4'))
-_putchar(c);
+if (x != 2 && x != 4)
+_putchar(x + '0');
 }
 _putchar('\n');
 }
