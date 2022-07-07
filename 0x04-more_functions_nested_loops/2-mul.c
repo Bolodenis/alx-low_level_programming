@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *mul - multiplies two integers
-*@a: first integer
+*@a: first integers
 *@b: second integer
 *Return: addition of a and b
 */
