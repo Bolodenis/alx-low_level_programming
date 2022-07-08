@@ -4,11 +4,11 @@
 */
 void print_numbers(void)
 {
-int x;
-while (x < 10);
-{
-_putchar(x + '0');
-x++;
-}
-_putchar('\n');
+	int x = 48;
+
+	while (x < 58)
+	{
+		_putchar(x++);
+	}
+	_putchar(10);
 }
