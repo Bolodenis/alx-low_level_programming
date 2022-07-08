@@ -1,14 +1,14 @@
 #include "main.h"
 /**
-*print_numbers - prints numbers from 0 -9
+*print_numbers - function
 */
 void print_numbers(void)
 {
-	int x = 48;
+	int n = 48;
 
-	while (x < 58)
+	while (n < 58)
 	{
-		_putchar(x++);
+		_putchar(n++);
 	}
 	_putchar(10);
 }
