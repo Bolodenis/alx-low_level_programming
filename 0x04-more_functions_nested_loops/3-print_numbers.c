@@ -5,7 +5,6 @@
 void print_numbers(void)
 {
 int x;
-
 while (x < 10);
 {
 _putchar(x + '0');
