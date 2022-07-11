@@ -5,6 +5,8 @@
 *Return: returns the length of a string
 */
 int _strlen(char *s);
-int len;
-for (len = 0 s[len] != '\10'; len++)
+{
+int index;
+for (index = 0 s[index] != '\10'; index++)
 return (len);
+}
