@@ -1,36 +1,23 @@
-x0B-malloc_free/0-create_array.c
-@@ -0,0 +1,34 @@
-#include <stdlib.h>
 #include "main.h"
-
+#include <stdlib.h>
 /**
- * *create_array - creates an array of chars,
- * and initializes it with a specific char
- * @size: size of the array to create
- * @c: char to initialize the array c
+ * create_array - creates an array of chars.
+ * @size: size of the array.
+ * @c: char for initialized the array.
  *
- * Return: pointer to the array (Success), NULL (Error)
+ * Return: the string initialized.
  */
 char *create_array(unsigned int size, char c)
 {
-	char *p;
-	unsigned int i = 0;
+	char *arrayMem;
+	unsigned int i;
 
 	if (size == 0)
 		return (NULL);
-
-	p = (char *) malloc(sizeof(char) * size);
-
-	if (p == NULL)
-		return (0);
-
-	while (i < size)
-	{
-		*(p + i) = c;
-		i++;
-	}
-
-	*(p + i) = '\0';
-
-	return (p);
+	arrayMem = malloc(size * sizeof(char));
+	if (arrayMem == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+		*(arrayMem + i) = c;
+	return (arrayMem);
 }
