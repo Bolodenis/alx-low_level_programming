@@ -1,28 +1,24 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
- * array_range - initializes memory spaces with zero.
- * @min: string 1.
- * @max: string 2, concatenated to 1
- *
- * Return: pointer to the concatenated string.
- */
+* *array_range - creates an array of integers
+* @min: minimum range of values stored
+* @max: maximum range of values stored and number of elements
+*
+* Return: pointer to the new array
+*/
 int *array_range(int min, int max)
 {
-	int *newArray;
-	int i, length;
-
-	if (min > max)
-		return (NULL);
-
-	length = max - min + 1;
-	newArray = malloc(length * sizeof(int));
-	if (newArray == NULL)
-		return (NULL);
-
-	for (i = min; i <= max; i++)
-		*(newArray + i) = i;
-
-	return (newArray);
+int *ptr;
+int i, size;
+if (min > max)
+return (NULL);
+size = max - min + 1;
+ptr = malloc(sizeof(int) * size);
+if (ptr == NULL)
+return (NULL);
+for (i = 0; min <= max; i++)
+ptr[i] = min++;
+return (ptr);
 }
+
