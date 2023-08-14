@@ -5,10 +5,10 @@
  *  followed by a new line.
  *  Author - Denis Bollo
  */
-int main(void)
+void main(void)
 {
 
-	printf("%s\n", __FILE__);
+	printf("The name of the file: %s\n", __FILE__);
 
 
 	return (0);
