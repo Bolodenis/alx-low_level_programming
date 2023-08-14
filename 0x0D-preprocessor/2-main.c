@@ -5,7 +5,7 @@
  *  followed by a new line.
  *  Author - Denis Bollo
  */
-void main(void)
+int  main(void)
 {
 
 	printf("The name of the file: %s\n", __FILE__);
