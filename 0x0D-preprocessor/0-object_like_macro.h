@@ -1,10 +1,6 @@
-/**
- * *Main- a header file that defines a macro named SIZE
- *  as an abbreviation for the token 1024
- */
-#ifndef OBJECT_LIKE_MICRO
-#define OBJECT_LIKE_MICRO
+#ifndef SIZE_LIKE_MICRO
+#define SIZE_LIKE_MICRO
 
-#define SIZE 1024
+#define SIZEi 1024
 
 #endif
