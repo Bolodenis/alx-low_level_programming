@@ -6,7 +6,7 @@
 /**
  * print_list - prints all the elements of a list_t list.
  * @h: singly link list
- * return: the number of elements in the list
+ * Return: the number of elements in the list
  */
 size_t print_list(const list_t *h)
 {
