@@ -10,17 +10,15 @@
  */
 size_t print_listint(const listint_t *h)
 {
-const listint_t *newnode = h;
 int count = 0;
-newnode = (listint_t *)malloc(sizeof(listint_t));
-if (newnode == NULL)
+if( h == NULL)
 {
 printf("the list is empty");
 }
-while (newnode != NULL)
+while (h != NULL)
 {
-printf("%d\n", newnode->n);
-newnode = newnode->next;
+printf("%d\n", h->n);
+h = h->next;
 count++;
 }
 return (count);
