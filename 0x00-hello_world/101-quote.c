@@ -2,7 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 /**
-*Mian- entry point
+*Mainn- entry point
 *Description: 'A new project abot using puts with special symbols'
 *Return: Always 1 (success)
 */
