@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <unistdi.h>
+#include <unistd.h>
 /**
 *Mian- entry point
 *Description: 'A new project abot using puts with special symbols'
